@@ -21,23 +21,26 @@ The Receipt Processor API is a Go-based backend service that processes receipts 
 ### Running Locally (Without Docker)
 1. Clone the repository:
 
+```
 git clone https://github.com/your-username/receipt-processor.git 
 cd receipt-processor
+```
 
 2. Install dependencies:
 
-go mod tidy
+` go mod tidy `
 
 3. Run the API:
 
-go run main.go
+` go run main.go `
 
 
 ### Running with Docker
 1. Build the Docker image:
-docker build -t receipt-processor .
+
+`docker build -t receipt-processor . `
 
 2. Run the container:
-docker run -p 8080:8080 receipt-processor
+`docker run -p 8080:8080 receipt-processor `
 
 
