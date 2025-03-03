@@ -23,7 +23,7 @@ WORKDIR /app
 COPY --from=builder /app/receipt-processor .
 
 # Ensure the binary is executable
-RUN chmod +x receipt-processors
+RUN chmod +x receipt-processor
 
 # Expose port 8080 for API access
 EXPOSE 8080
