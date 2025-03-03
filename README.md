@@ -22,7 +22,7 @@ The Receipt Processor API is a Go-based backend service that processes receipts 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/receipt-processor.git 
+git clone https://github.com/sdB0rsiwala/receipt-processor.git
 cd receipt-processor
 ```
 
